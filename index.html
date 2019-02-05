@@ -9,13 +9,104 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
-    <header id="header">
-      
-    </header>
+    <div id="page">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/IPhone_X_Wordmark.svg/2000px-IPhone_X_Wordmark.svg.png" alt="">
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="contact">
+        <h2>Enter your email so we can update you on what's new.</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Email address" required>
+          <input id="submit" type="submit" value="Get Started" class="btn">
+        </form>
+      </section>
+      <div class="container">
+        <section id="features">
+          <div class="single-feature">
+            <div class="icon">
+              <i class="fas fa-bookmark"></i>
+            </div>
+            <div class="description">
+              <h2>Premium Materials</h2>
+              <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+          </div>
+          <div class="single-feature">
+            <div class="icon">
+              <i class="fas fa-thumbtack"></i>
+            </div>
+            <div class="description">
+              <h2>Fast Shipping</h2>
+              <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+          </div>
+          <div class="single-feature">
+            <div class="icon">
+              <i class="fas fa-pen"></i>
+            </div>
+            <div class="description">
+              <h2>Quality Assurance</h2>
+              <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+          <iframe id="video" width="500" height="350" src="https://www.youtube.com/embed/apGuVR3iJqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </section>
+        <section id="pricing">
+          <div class="iphone">
+            <div class="level">
+              iPhone X 64 GB
+            </div>
+            <h2>$700</h2>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+            <button type="button" class="btn">Select</button>
+          </div>
+          <div class="iphone">
+            <div class="level">
+              iPhone X 128 GB
+            </div>
+            <h2>$800</h2>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+            <button type="button" class="btn">Select</button>
+          </div>
+          <div class="iphone">
+            <div class="level">
+              iPhone X 256 GB
+            </div>
+            <h2>$900</h2>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+            <button type="button" class="btn">Select</button>
+          </div>
+        </section>
+      </div>
+    </div>
     <!-- 
-      User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
-      User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
-      User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
       User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
       User Story #6: I can watch an embedded product video with id="video".
       User Story #7: My landing page has a form element with a corresponding id="form".
